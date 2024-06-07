@@ -1,0 +1,309 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(48, 190, 126);
+  color: rgb(16, 5, 1);
+}
+
+
+/* header css */
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 80px;
+  background-color:white;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  list-style-type: none;
+  margin: 0 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+
+nav ul li a:hover {
+  color: rgb (153, 153, 226);
+  font-size: 1.4rem;
+}
+
+.logo {
+  width: 120px;
+}
+
+
+/* first css */
+.first {
+  display: flex;
+  height: 300px;
+  justify-content: space-around;
+  margin: 120px 0;
+  align-items: center;
+}
+
+.first>div {
+  width: 30%;
+}
+
+.leftsection {
+  font-size: 3rem;
+}
+
+.rightsection img {
+  width: 80%;
+  margin: 50px 0;
+  border-radius: 80px;
+}
+
+.leftsection .btn {
+  padding: 5px;
+  margin: 25px 3px;
+  background-color: rgb(69, 12, 93);
+  color: white;
+  border: 2px solid white;
+  border-radius: 6px;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.leftsection .btn:hover {
+  background-color: rgb(30, 166, 30);
+}
+
+.text-color {
+  color: rgb(25, 45, 154);
+}
+
+#element {
+  color: rgb(226, 180, 43);
+}
+
+
+main hr {
+  border: 0;
+  background-color: white;
+  height: 2.2px;
+  margin: 40px 84px;
+}
+
+
+/* third css */
+.third {
+  max-width: 50vw;
+  height: 600px;
+  margin: 0 120px;
+}
+
+.info .self {
+  padding: 15px 0;
+  font-size: 1.9rem;
+}
+
+.lefts {
+  font-size: 20px;
+  width: 950px;
+  position: relative;
+  bottom: 290px;
+  left: 260px;
+}
+
+.info .box img {
+  width: 220px;
+  border-radius: 20px;
+}
+
+.class {
+  border-radius: 50%;
+  display: inline-block;
+  padding: 2px 0 0 2px;
+  width: 3%;
+}
+
+main hr {
+  border: 0;
+  background-color: rgb(76, 6, 27);
+  height: 2.2px;
+  margin: 40px 84px;
+}
+
+
+/* fourth css */
+.fourth {
+  max-width: 50vw;
+  height: 400px;
+  margin: 0 120px;
+}
+
+.skills .pi {
+  padding: 15px 0;
+  font-size: 1.9rem;
+}
+
+
+
+.points {
+  padding: 15px;
+  font-size: 20px;
+  width: 950px;
+
+}
+
+main hr {
+  border: 0;
+  background-color: rgb(84, 6, 6);
+  height: 2.2px;
+  margin: 40px 84px;
+}
+
+
+/* second css */
+.second {
+  max-width: 80vw;
+  margin: auto;
+  height: 550px;
+}
+
+.second h1 {
+  font-size: 1.9rem;
+}
+
+.second .box {
+  background-color: white;
+  width: 80vw;
+  height: 2px;
+  margin: 56px 0;
+  display: flex;
+
+}
+
+.second .vertical {
+  background-color: white;
+  height: 93px;
+  width: 2px;
+  margin: 0 120px;
+}
+
+.image-top {
+  width: 30px;
+  border-radius: 100%;
+  position: relative;
+  top: -32px;
+  left: -9px;
+  border: 1px solid white;
+
+}
+
+.vertical-title {
+  position: relative;
+  top: 75px;
+  width: 150px;
+  font-size: 15px;
+}
+
+.vertical-desc {
+  position: relative;
+  top: 86px;
+  color: rgb(5, 1, 12);
+  width: 150px;
+  font-size: 10px;
+}
+
+
+/* sixth css */
+
+.sixth {
+  max-width: 80vw;
+  margin: auto;
+  height: 450px;
+}
+
+.contain h2 {
+  color: rgb(72, 8, 8);
+  font-size: 1.9rem;
+}
+
+.form-group {
+  margin: 15px;
+  font-size: 20px;
+}
+
+.form-text {
+  font-size: 15px;
+}
+
+.form-control {
+  margin: 15px;
+  padding: 5px;
+  width: 250px;
+  border: 2px solid rgb(228, 209, 209);
+  border-radius: 6px;
+}
+
+.form-check {
+  margin: 15px;
+  padding: 5px;
+  width: 250px;
+}
+
+.btn-btn-primary {
+  width: 90px;
+  padding: 12px;
+  margin: 25px 3px;
+  background-color: rgb(186, 146, 14);
+  color: white;
+  border: 2px solid white;
+  border-radius: 6px;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.btn-btn-primary:hover {
+  background-color: rgb(216, 40, 116);
+}
+
+
+/* footer css */
+footer {
+  background-color:white;
+}
+
+.footer {
+  display: flex;
+  padding: 23px 123px;
+}
+
+.footer>div {
+  width: 200px;
+}
+
+.social {
+  border-radius: 100px;
+  display: inline-block;
+  padding: 5px;
+  width: 15%;
+}
+
+footer .footer-third {
+  text-align: center;
+  color:black;
+  position: relative;
+  bottom: 15px;
+}
+
+footer .footer-third a {
+  text-decoration: none;
+  color:rgb(15, 2, 2);
+}
